@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import TopBar from './Topbar'
-import Profile from './Profile'
-import NextEvent from './NextEvent'
-import AboutEvent from './AboutEvent'
-import Members from './Members'
+import ContainerHeader from './../Container/ContainerHeader'
+import Container1 from './../Container/Container1'
+import Container2 from './../Container/Container2'
+import Container3 from './../Container/Container3'
+import Container4 from './../Container/Container4'
 // import PastMeetUp from './PastMeetup'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <TopBar/>
-        <Profile/>
-        <NextEvent/>
-        <AboutEvent/>
-        <Members/>
+        <ContainerHeader/>
+        <Container1/>
+        <Container2/>
+        <Container3/>
+        <Container4/>
         {/* <PastMeetUp/> */}
       </div>
     );

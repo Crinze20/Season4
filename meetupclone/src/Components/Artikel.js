@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Profile = () => 
+const Artikel = () => 
 <div>
   <div className="container is-fluid">            
     <div className="notification">
@@ -34,4 +34,4 @@ const Profile = () =>
 </div>
 
 
-export default Profile
+export default Artikel
