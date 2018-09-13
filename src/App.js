@@ -15,6 +15,7 @@ class App extends Component {
         <NextEvent/>
         <About/>
         <Member/>
+        test git
       </div>
     );
   }
