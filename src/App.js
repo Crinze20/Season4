@@ -14,8 +14,7 @@ class App extends Component {
         <NewEvent/>
         <NextEvent/>
         <About/>
-        <Member/>
-        ge
+        <Member/>        
       </div>
     );
   }
